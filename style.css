@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #fff; /* Ensures text is visible on varying background colors */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 250px; /* Increased from 150px to 200px */
+    height: 250px; /* Maintain aspect ratio if the image is square */
+    border-radius: 50%; /* Keeps the circular shape */
+    margin-bottom: 25px;
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+
+}
+
+a {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
